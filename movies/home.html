@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!--import google font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!--monoton googlefont-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!--css swiper-->
+    <link rel="stylesheet"
+          href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <!--scroll-progress-bar-->
+    <div id="progress">
+        <span id="progress-value"></span>
+    </div>
+    <nav class="navigation">
+        <!--menu-btn-->
+        <input type="checkbox" class="menu-btn" id="menu-btn" />
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+
+        <!--logo-->
+        <a href="home.html" class="logo">
+            Movies<span>.hd </span>
+        </a>
+
+
+        <!--menu-->
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Coming</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">News Letter</a></li>
+        </ul>
+
+        <!--search-box-->
+        <form action="" class="search-box">
+            <!--input-->
+            <input type="text" name="search" placeholder="Search Movie" class="search-input" required />
+            <!--btn-->
+            <button type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+
+        </form>
+
+
+    </nav>
+    <!--navigation ending-->
+    <!---slider--------------->
+    <section id="main-slider">
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <!--1-->
+                <div class="swiper-slide">
+                    <!--box--->
+                    <div class="main-slider-box">
+
+                        <!--overlayer-->
+                        <a href="movie-page.html" class="main-slider-overlay">
+                            <i class="fas fa-play"></i>
+                        </a>
+
+
+                        <!--img-->
+                        <div class="main-slider-img">
+                            <img src="./img/abominable.jpg" alt="poster" />
+                        </div>
+
+                        <!--text------>
+                        <div class="main-slider-text">
+                            <!--quality-->
+                            <span class="quality">Full HD</span>
+
+                            <!--bottom-text-->
+                            <div class="bottom-text">
+                                <!--name-->
+                                <div class="movie-name">
+                                    <span>2014</span>
+                                    <strong>Abominable</strong>
+                                </div>
+
+                                <!--Category-and-rating-->
+                                <div class="category-rating">
+                                    <!--category-->
+                                    <div class="category">
+                                        <a href="#">Cartoon</a>,<a href="#">Fantasy</a>,<a href="#">Adventure</a>
+                                    </div>
+                                    <div class="rating">
+                                        5.2 <img src="./img/IMDb-icon.png" alt="imbd" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--2-->
+                <div class="swiper-slide">
+                    <!--box--->
+                    <div class="main-slider-box">
+
+                        <!--overlayer-->
+                        <a href="#" class="main-slider-overlay">
+                            <i class="fas fa-play"></i>
+                        </a>
+
+
+                        <!--img-->
+                        <div class="main-slider-img">
+                            <img src="./img/iceage.png" alt="poster" />
+                        </div>
+
+                        <!--text------>
+                        <div class="main-slider-text">
+                            <!--quality-->
+                            <span class="quality">Full HD</span>
+
+                            <!--bottom-text-->
+                            <div class="bottom-text">
+                                <!--name-->
+                                <div class="movie-name">
+                                    <span>2014</span>
+                                    <strong>Ice Age</strong>
+                                </div>
+
+                                <!--Category-and-rating-->
+                                <div class="category-rating">
+                                    <!--category-->
+                                    <div class="category">
+                                        <a href="#">Cartoon</a>,<a href="#">Fantasy</a>,<a href="#">Adventure</a>
+                                    </div>
+                                    <div class="rating">
+                                        5.2 <img src="./img/IMDb-icon.png" alt="imbd" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!--3-->
+                <div class="swiper-slide">
+                    <!--box--->
+                    <div class="main-slider-box">
+
+                        <!--overlayer-->
+                        <a href="#" class="main-slider-overlay">
+                            <i class="fas fa-play"></i>
+                        </a>
+
+
+                        <!--img-->
+                        <div class="main-slider-img">
+                            <img src="./img/bumblebee.jpg" alt="poster" />
+                        </div>
+
+                        <!--text------>
+                        <div class="main-slider-text">
+                            <!--quality-->
+                            <span class="quality">Full HD</span>
+
+                            <!--bottom-text-->
+                            <div class="bottom-text">
+                                <!--name-->
+                                <div class="movie-name">
+                                    <span>2014</span>
+                                    <strong>Bumblebee</strong>
+                                </div>
+
+                                <!--Category-and-rating-->
+                                <div class="category-rating">
+                                    <!--category-->
+                                    <div class="category">
+                                        <a href="#">Cartoon</a>,<a href="#">Fantasy</a>,<a href="#">Adventure</a>
+                                    </div>
+                                    <div class="rating">
+                                        5.2 <img src="./img/IMDb-icon.png" alt="imbd" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!--4-->
+                <div class="swiper-slide">
+                    <!--box--->
+                    <div class="main-slider-box">
+
+                        <!--overlayer-->
+                        <a href="#" class="main-slider-overlay">
+                            <i class="fas fa-play"></i>
+                        </a>
+
+
+                        <!--img-->
+                        <div class="main-slider-img">
+                            <img src="./img/rumble.png" alt="poster" />
+                        </div>
+
+                        <!--text------>
+                        <div class="main-slider-text">
+                            <!--quality-->
+                            <span class="quality">Full HD</span>
+
+                            <!--bottom-text-->
+                            <div class="bottom-text">
+                                <!--name-->
+                                <div class="movie-name">
+                                    <span>2014</span>
+                                    <strong>Rumble</strong>
+                                </div>
+
+                                <!--Category-and-rating-->
+                                <div class="category-rating">
+                                    <!--category-->
+                                    <div class="category">
+                                        <a href="#">Cartoon</a>,<a href="#">Fantasy</a>,<a href="#">Adventure</a>
+                                    </div>
+                                    <div class="rating">
+                                        5.2 <img src="./img/IMDb-icon.png" alt="imbd" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!--5-->
+                <div class="swiper-slide">
+                    <!--box--->
+                    <div class="main-slider-box">
+
+                        <!--overlayer-->
+                        <a href="#" class="main-slider-overlay">
+                            <i class="fas fa-play"></i>
+                        </a>
+
+
+                        <!--img-->
+                        <div class="main-slider-img">
+                            <img src="./img/morbius.png" alt="poster" />
+                        </div>
+
+                        <!--text------>
+                        <div class="main-slider-text">
+                            <!--quality-->
+                            <span class="quality">Full HD</span>
+
+                            <!--bottom-text-->
+                            <div class="bottom-text">
+                                <!--name-->
+                                <div class="movie-name">
+                                    <span>2014</span>
+                                    <strong>Morbius</strong>
+                                </div>
+
+                                <!--Category-and-rating-->
+                                <div class="category-rating">
+                                    <!--category-->
+                                    <div class="category">
+                                        <a href="#">Cartoon</a>,<a href="#">Fantasy</a>,<a href="#">Adventure</a>
+                                    </div>
+                                    <div class="rating">
+                                        5.2 <img src="./img/IMDb-icon.png" alt="imbd" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!--6-->
+                <div class="swiper-slide">
+                    <!--box--->
+                    <div class="main-slider-box">
+
+                        <!--overlayer-->
+                        <a href="#" class="main-slider-overlay">
+                            <i class="fas fa-play"></i>
+                        </a>
+
+
+                        <!--img-->
+                        <div class="main-slider-img">
+                            <img src="./img/sonic.png" alt="poster" />
+                        </div>
+
+                        <!--text------>
+                        <div class="main-slider-text">
+                            <!--quality-->
+                            <span class="quality">Full HD</span>
+
+                            <!--bottom-text-->
+                            <div class="bottom-text">
+                                <!--name-->
+                                <div class="movie-name">
+                                    <span>2014</span>
+                                    <strong>Sonic</strong>
+                                </div>
+
+                                <!--Category-and-rating-->
+                                <div class="category-rating">
+                                    <!--category-->
+                                    <div class="category">
+                                        <a href="#">Cartoon</a>,<a href="#">Fantasy</a>,<a href="#">Adventure</a>
+                                    </div>
+                                    <div class="rating">
+                                        5.2 <img src="./img/IMDb-icon.png" alt="imbd" />
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <!--btns-->
+    <div class="slider-btns">
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <!---Latest Movies-->
+    <section id="latest">
+        <!--heading-->
+        <div class="latest-heading">
+            <h1>Latest Movies</h1>
+        </div>
+
+        <!--container-->
+        <div class="post-container">
+            <!--post-box-1------------->
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img src="./img/aquaman.jpg" alt="soon" />
+                </div>
+                <!--text-->
+                <div class="main-slider-text">
+                    <!--quality-->
+                    <span class="quality">Full HD</span>
+
+                    <!--bottom-text-->
+                    <div class="bottom-text">
+                        <!--name-->
+                        <div class="movie-name">
+                            <span>2014</span>
+                            <strong>Aquaman</strong>
+                        </div>
+                        <!--category-and-rating-->
+                        <div class="category">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Actions</a>,<a href="#">Sci-fi</a>,<a href="#">Fantasy</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--post-box-1------------->
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img src="./img/aquaman.jpg" alt="soon" />
+                </div>
+                <!--text-->
+                <div class="main-slider-text">
+                    <!--quality-->
+                    <span class="quality">Full HD</span>
+
+                    <!--bottom-text-->
+                    <div class="bottom-text">
+                        <!--name-->
+                        <div class="movie-name">
+                            <span>2014</span>
+                            <strong>Aquaman</strong>
+                        </div>
+                        <!--category-and-rating-->
+                        <div class="category">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Actions</a>,<a href="#">Sci-fi</a>,<a href="#">Fantasy</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--post-box-1------------->
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img src="./img/aquaman.jpg" alt="soon" />
+                </div>
+                <!--text-->
+                <div class="main-slider-text">
+                    <!--quality-->
+                    <span class="quality">Full HD</span>
+
+                    <!--bottom-text-->
+                    <div class="bottom-text">
+                        <!--name-->
+                        <div class="movie-name">
+                            <span>2014</span>
+                            <strong>Aquaman</strong>
+                        </div>
+                        <!--category-and-rating-->
+                        <div class="category">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Actions</a>,<a href="#">Sci-fi</a>,<a href="#">Fantasy</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--post-box-1------------->
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img src="./img/aquaman.jpg" alt="soon" />
+                </div>
+                <!--text-->
+                <div class="main-slider-text">
+                    <!--quality-->
+                    <span class="quality">Full HD</span>
+
+                    <!--bottom-text-->
+                    <div class="bottom-text">
+                        <!--name-->
+                        <div class="movie-name">
+                            <span>2014</span>
+                            <strong>Aquaman</strong>
+                        </div>
+                        <!--category-and-rating-->
+                        <div class="category">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Actions</a>,<a href="#">Sci-fi</a>,<a href="#">Fantasy</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--post-box-1------------->
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img src="./img/aquaman.jpg" alt="soon" />
+                </div>
+                <!--text-->
+                <div class="main-slider-text">
+                    <!--quality-->
+                    <span class="quality">Full HD</span>
+
+                    <!--bottom-text-->
+                    <div class="bottom-text">
+                        <!--name-->
+                        <div class="movie-name">
+                            <span>2014</span>
+                            <strong>Aquaman</strong>
+                        </div>
+                        <!--category-and-rating-->
+                        <div class="category">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Actions</a>,<a href="#">Sci-fi</a>,<a href="#">Fantasy</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--post-box-1------------->
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img src="./img/aquaman.jpg" alt="soon" />
+                </div>
+                <!--text-->
+                <div class="main-slider-text">
+                    <!--quality-->
+                    <span class="quality">Full HD</span>
+
+                    <!--bottom-text-->
+                    <div class="bottom-text">
+                        <!--name-->
+                        <div class="movie-name">
+                            <span>2014</span>
+                            <strong>Aquaman</strong>
+                        </div>
+                        <!--category-and-rating-->
+                        <div class="category">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Actions</a>,<a href="#">Sci-fi</a>,<a href="#">Fantasy</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--post-box-1------------->
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img src="./img/aquaman.jpg" alt="soon" />
+                </div>
+                <!--text-->
+                <div class="main-slider-text">
+                    <!--quality-->
+                    <span class="quality">Full HD</span>
+
+                    <!--bottom-text-->
+                    <div class="bottom-text">
+                        <!--name-->
+                        <div class="movie-name">
+                            <span>2014</span>
+                            <strong>Aquaman</strong>
+                        </div>
+                        <!--category-and-rating-->
+                        <div class="category">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Actions</a>,<a href="#">Sci-fi</a>,<a href="#">Fantasy</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--post-box-1------------->
+            <div class="post-box">
+                <!--img-->
+                <div class="post-img">
+                    <img src="./img/aquaman.jpg" alt="soon" />
+                </div>
+                <!--text-->
+                <div class="main-slider-text">
+                    <!--quality-->
+                    <span class="quality">Full HD</span>
+
+                    <!--bottom-text-->
+                    <div class="bottom-text">
+                        <!--name-->
+                        <div class="movie-name">
+                            <span>2014</span>
+                            <strong>Aquaman</strong>
+                        </div>
+                        <!--category-and-rating-->
+                        <div class="category">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Actions</a>,<a href="#">Sci-fi</a>,<a href="#">Fantasy</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <!--container-end-->
+        <!--page-number-->
+        <div class="page-number">
+            <a href="#" class="page-active">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            ....
+            <a href="#">100</a>
+        </div>
+
+    </section>
+    <!--latest post end-->
+
+
+
+    <!--footer-->
+    <footer>
+        <!--footer-logo-->
+        <a href="home.html" class="logo">
+            Movies<span>hd</span>
+        </a>
+        <!--copyright-->
+        <span class="copyright">
+            Copyright 2022 - GrpahiCodeMedia
+        </span>
+    </footer>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--jQuery-->
+    <script src="./js/jQuery.js"></script>
+
+
+    <!--initialize swiper-->
+    <script src="./js/main.js"></script>
+</body>
+</html>
